@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Receipt Tracker",
+    "slug": "receipt-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "receipt-tracker",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.receipttracker.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Used to scan your receipts.",
+          "photosPermission": "Used to import receipt photos and payment screenshots."
+        }
+      ],
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

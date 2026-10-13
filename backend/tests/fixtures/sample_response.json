@@ -1,0 +1,61 @@
+{
+  "request_id": "c9b83b92-5d98-4b71-bdfc-279410bfbb6b",
+  "readable": true,
+  "document_type": "payment_screenshot",
+  "fields": {
+    "merchant": {
+      "value": "Chai Point",
+      "confidence": 0.91,
+      "needs_review": false
+    },
+    "amount": {
+      "value": "250.00",
+      "confidence": 0.97,
+      "needs_review": false
+    },
+    "currency": {
+      "value": "INR",
+      "confidence": 0.9,
+      "needs_review": false
+    },
+    "date": {
+      "value": "2026-10-12",
+      "confidence": 0.7,
+      "needs_review": true
+    },
+    "category": {
+      "value": "food",
+      "confidence": 0.8,
+      "needs_review": false
+    },
+    "payment_method": {
+      "value": "upi",
+      "confidence": 0.95,
+      "needs_review": false
+    },
+    "tax": {
+      "value": null,
+      "confidence": 0.0,
+      "needs_review": false
+    },
+    "discount": {
+      "value": null,
+      "confidence": 0.0,
+      "needs_review": false
+    },
+    "transaction_ref": {
+      "value": "428193771204",
+      "confidence": 0.9,
+      "needs_review": false
+    },
+    "payment_status": {
+      "value": "success",
+      "confidence": 0.9,
+      "needs_review": false
+    }
+  },
+  "warnings": [
+    "status_unverified"
+  ],
+  "model": "gemma-4-test"
+}
